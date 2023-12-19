@@ -1,0 +1,23 @@
+/* Temel tablo stilleri */
+.table-special {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-special, .table-special th, .table-special td {
+    border: 1px solid #ddd;
+  }
+  
+  .table-special th {
+    background-color:  #7dd10e; 
+    color: white;
+    padding: 8px;
+    text-align: left;
+    transition: background-color 0.3s; 
+  }
+  
+ 
+  .table-special th :hover {
+    background-color: #45a049; 
+  }
+  

@@ -1,0 +1,199 @@
+.number{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(235, 235, 235);
+    outline: none;
+}
+.my-custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; }
+  
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #ffffff;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .thead-div{
+width: 100%;
+border-right: 1px solid #ddd;
+border-left: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+height: 500px;
+    }
+  .applycupon{
+    margin-top: 12px;
+margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 96%;
+    height: 20%;
+border: 1px solid #ddd;
+  }
+  .applycupon :first-child{
+    width: 190px;
+    height: 55px;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+
+  }
+  .applycupon :nth-child(2){
+    width: 190px;
+    height: 55px;
+    border-radius: 2px;
+    border: 2px solid #ddd;
+    font-weight: bold;
+    background: none;
+    &:hover{
+        background-color: #7aa93c;
+        border: none;
+        color: aliceblue;
+     }
+  }
+  .updatecard{
+    display: flex;
+    justify-content:flex-end;
+  padding-top: 20px;
+  padding-right: 22px;
+  }
+
+  .updatecard button{
+    width: 190px;
+    height: 55px;
+    border-radius: 2px;
+    border: 2px solid #ddd;
+    font-weight: bold;
+    background: none;
+    &:hover{
+        background-color: #7aa93c;
+        border: none;
+        color: aliceblue;
+     }
+  }
+  .right-page{
+    width: 50%;
+  }
+  .right-page{
+    width: 50%;
+  }
+  .bookpage{
+    width: 350px;
+    height: 400px;
+
+}
+.bookpage img {
+    width: 230px;
+    height: 300px;
+    }
+
+
+
+  .bookpage:hover .iconss {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    border: 1px solid rgb(211, 211, 211);
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    display: flex; 
+  
+  }
+  .iconss{
+    position: absolute; 
+    top: 50%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    display: none;
+    background-color: white;
+    font-size: 25px;
+  
+  }
+  .two-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+  }
+  
+  .two-two-item {
+    width: 100%;
+  }
+  
+  .full-div{
+    width: 570px;
+    height: 200px;
+    border: 1px solid rgb(235, 235, 235);
+  }
+  .flex-end{
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sub-right{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .sub-left{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .flex-right{
+    display: flex;
+    justify-content: space-around;
+  }
+  .flex-drection{
+    display: flex;
+justify-content: flex-end;
+    gap: 30px;
+    padding-top: 40px;
+  }
+  .flex-drection :first-child{
+    border: 1px solid rgb(211, 211, 211);
+    width: 150px;
+    background: none;
+    border-radius: 20px;
+    height: 40px;
+    &:hover{
+      background-color: #7aa93c;
+      border: none;
+      color: aliceblue;
+   }
+  }
+  .flex-drection :nth-child(2){
+    width: 150px;
+    background: none;
+    border-radius: 20px;
+    height: 40px;
+    border: #ffffff;
+    background-color: #7aa93c;
+    color: aliceblue;
+    &:hover{
+      background-color: #000000;
+      border: none;
+      color: aliceblue;
+    
+   }
+  }

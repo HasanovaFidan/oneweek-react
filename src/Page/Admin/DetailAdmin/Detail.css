@@ -1,0 +1,25 @@
+.car{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 30px;
+}
+.card-bb{
+    display: flex;
+    gap: 40px;
+}
+.left-img img{
+width: 400px;
+height: 450px;
+}
+
+.right-word{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.right-word h5{
+ font-size: 25px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: rgb(255, 77, 0);
+}

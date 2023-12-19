@@ -1,0 +1,31 @@
+.kadrat{
+    width: 300px;
+    padding-right: 20px;
+    height: 250px;
+    border: 1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bloger{
+    width: 300px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+.kadrat h6{
+    font-size: 20px;
+    text-align: start;
+}
+.calendar{
+  font-size: 20px;
+} 
+.user{
+color: black;
+font-size: 20px;
+text-align: start;
+}
+.size{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

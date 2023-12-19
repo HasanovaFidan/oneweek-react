@@ -1,0 +1,14 @@
+.catagoriess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 55px;
+    color: #fff;
+    margin-left: 50px;
+    gap: 20px;
+    border: 2px solid rgb(232, 232, 232);
+  }
+  .twos{
+    color: #fff;
+  }

@@ -1,0 +1,28 @@
+.radius{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+}
+.abs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   gap: 10px;
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.hovr:hover{
+    color: green;
+    transition: 1s;
+}

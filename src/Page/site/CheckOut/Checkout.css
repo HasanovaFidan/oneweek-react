@@ -1,0 +1,224 @@
+.emptygreen{
+    width:100%;
+    height: 2px;
+    background-color: green;
+}
+
+.accordian-click{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.topon h2{
+    padding-bottom: 30px;
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.accordian-div{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    height: 70px;
+    padding-left: 20px;
+    border-top: 3px solid #7aa93c;
+    background-color: rgb(243, 243, 243);
+}
+.sticky{
+    display: flex;
+    align-self: center;
+    gap: 5px;
+}
+
+.note{
+    font-size: 20px;
+    color: green;
+   
+}
+.clicklogin{
+    margin-top: 10px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(222, 222, 222);
+
+}
+.clickloginn{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(222, 222, 222);
+
+}
+
+.clickloginn input{
+    width: 180px;
+    height: 55px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(222, 222, 222);
+    }
+    .coupen{
+        width: 150px;
+        height: 55px;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 2px solid rgb(222, 222, 222);
+        border-radius: 5px;
+        &:hover{
+           background-color: #7aa93c;
+           border: none;
+           color: aliceblue;
+        }
+    }
+.clicklogin input{
+width: 400px;
+height: 40px;
+border: none;
+outline: none;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(222, 222, 222);
+}
+.login-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.login-div input{
+    width: 17px;
+    height: 17px;
+}
+.login-btn{
+    width: 150px;
+ height: 55px;
+ background-color: rgb(255, 255, 255);
+ font-size: 18px;
+ border: 2px solid rgb(222, 222, 222);
+ border-radius: 5px;
+ &:hover{
+    background-color: #7aa93c;
+    border: none;
+    color: aliceblue;
+ }
+}
+.hov{
+    color:brown;
+    &:hover{
+        color: #7aa93c;
+        cursor: pointer;
+    }
+}
+.bosss{
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+}
+.right-bling{
+margin-top: 20px;
+width: 55%;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.right-bling h4{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.emp{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emp input{
+    padding-left: 12px;
+  width: 300px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(239, 237, 237);
+    }
+    .emp input ::placeholder{
+        color: gray;
+      
+    }
+    .companyinput {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .companyinput input{
+width: 100%;
+height: 45px;
+padding-left: 12px;
+outline: none;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(239, 237, 237);
+    }
+.yeto{
+    width: 100%;
+    height: 140px;
+    outline: none;
+background-color: rgb(245, 245, 245);
+border: 1px solid rgb(239, 237, 237);
+}
+.left-bling{
+    background-color: rgb(245, 245, 245);
+border: 1px solid rgb(239, 237, 237);
+    margin-top: 20px;
+    width: 40%;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.left-bling h4{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.fullwidth{
+    display: flex;
+    gap: 50px;
+}
+.prod{
+    display: flex;
+    gap: 70px;
+}
+.right__pro{
+    width: 70%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left__pro{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-order{
+ width: 85%;   
+ height: 55px;
+ border: none;
+ color: aliceblue;
+ background-color: #7aa93c;
+ font-size: 20px;
+ &:hover{
+    transition: 0.6s;
+    background-color: rgb(188, 55, 55);
+ }
+}
